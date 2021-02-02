@@ -2,7 +2,7 @@ const [current, imgs] = [
   document.querySelector("#current"),
   document.querySelectorAll(".imgs img"),
 ];
-imgs[0].style.opacity = 0.4;
+imgs[0].style.opacity = 0.2;
 
 const opacity = 0.4;
 const imageClick = (e) => {
